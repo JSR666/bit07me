@@ -40,7 +40,7 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
-    border: 8px solid rgb(100, 158, 175);
+    border: 8px solid rgb(175, 100, 169);
     border-radius: 50%;
     overflow: hidden;
 }
