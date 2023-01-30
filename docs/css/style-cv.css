@@ -5,13 +5,33 @@
     font-family: 'Sofia Sans', sans-serif;
 }
 body{
-    background: lightblue;
-    display: flex;
+    background: rgb(150,240,29);
+    background: rgb(73,9,57);
+    background: radial-gradient(circle, rgba(73,9,57,1) 37%, rgba(0,0,0,1) 100%);    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-.buttom{
+/* navegacion */
+.nav-cv > nav{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #000;
+}
+
+.nav-cv > nav > a{
+    color: rgb(255, 230, 0);
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+.nav-cv nav >a:hover{
+    text-decoration: underline;
+}
+
+/* .buttom{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -23,10 +43,10 @@ body{
 }
 .btn-exe{
     background: #000;
-    color: yellow;
+    color: #1eff05;
     width: 300px;
     
-}
+} */
 
 .container{
     position: relative;
@@ -34,7 +54,7 @@ body{
     max-width: 1000px;
     min-height: 1000px;
     margin: 50px;
-    border:  3px solid rgb(255, 217 ,0);
+    border:  3px solid #1eff05;
     background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -57,7 +77,7 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
-    border: 8px solid rgb(175, 100, 169);
+    border: 8px solid #ff0571;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -81,13 +101,14 @@ body{
 .profiletext h2 span{
     font-size: 0.8em;
     font-weight: 300;
+    color: aqua;
 }
 
 .contactinfo{
     padding-top: 40px;
 }
 .tittle{
-    color: white;
+    color: #c2ff05;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -158,7 +179,7 @@ margin-top: 5px;
 
 .container .right_side{
     position: relative;
-    background: rgb(236, 236, 236);
+    background: rgb(0, 0, 0);
     padding: 40px;
 }
 
@@ -170,13 +191,13 @@ margin-top: 5px;
     margin-bottom: 0;
 }
 .tittle2{
-    color:rgb(83, 184, 197);
+    color:#9a27f7;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 p{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
@@ -190,13 +211,13 @@ p{
 }
 .about .box .year_company h5{
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
 .about .box .text h4{
     text-transform: uppercase;
-    color: rgb(0, 102, 255);
+    color: #2b97fa;
 }
 .skills .box{
     position: relative;
@@ -208,21 +229,21 @@ p{
 }
 .skills .box h4{
     text-transform: uppercase;
-    color: rgb(3, 43, 43);
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 .skills .box  .percent{
     position: relative;
     width: 100%;
     height: 10px;
-    background: rgba(185, 184, 184, 0.568);
+    background: rgba(255, 255, 255, 0.568);
 }
 .skills .box  .percent div{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    background: rgb(88, 132, 168);
+    background: #01c4e7;
 }
 .interest ul{
     display: grid;
@@ -230,12 +251,12 @@ p{
 }
 .interest ul li{
     list-style: none;
-    color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
     font-weight: 500;
     margin: 10px 0;
 }
 .interest ul li .fa{
-    color: rgb(141, 54, 255);
+    color: #ff0571;
     font-size: 18px;
     width: 20px;
 }

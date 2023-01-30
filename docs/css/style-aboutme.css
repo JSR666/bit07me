@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans', sans-serif;
+}
+body{
+    background: rgb(68, 68, 68);
+}
+/* Contenedor principal */
+.container{
+    position: relative;
+    width: 100%;
+    max-width: auto;
+    min-height: auto;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+/* Barra de navegación */
+
+.container .header-main .nav-main > nav{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #000;
+}
+
+.container .header-main .nav-main > nav > a{
+    color: rgb(255, 230, 0);
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+.container .header-main .nav-main nav >a:hover{
+    text-decoration: underline;
+}
+
+/* Pagina principal */
+.container .main-abme{
+    position: relative;
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20211014/pngtree-neon-grid-promotion-background-image_910187.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+
+}
+
+.profilephoto-abme{
+position: relative;
+width: 100%;
+height: 100%;
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+
+
+}
+.profilephoto-abme > .textame{
+    margin-top: 50px;
+    padding: 10px;
+    width: 900px;
+    background: #000;
+    
+}
+
+.profilephoto-abme > .textame > p{
+    font-size: 20px;
+    color:white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.profilephoto-abme .imgbx-abme{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 8px solid #c2ff05;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilephoto-abme .imgbx-abme img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container .footer-abme{
+    position: relative;
+    background: rgb(0, 0, 0);
+    border: solid 2px rgb(255, 217, 0);
+    width: auto;
+    height: 80px;
+    bottom: 0;
+}
+
+
+.footer-abme > img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    right: -48%;
+}
