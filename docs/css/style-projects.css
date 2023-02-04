@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans', sans-serif;
+}
+body{
+    background: rgb(68, 68, 68);
+}
+/* Contenedor principal */
+.container{
+    position: relative;
+    width: 100%;
+    max-width: auto;
+    min-height: auto;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+/* Barra de navegación */
+
+.container .header-main .nav-main > nav{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #000;
+}
+
+.container .header-main .nav-main > nav > a{
+    color: rgb(255, 230, 0);
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+.container .header-main .nav-main nav >a:hover{
+    text-decoration: underline;
+}
+
+/* Pagina principal */
+.container .main-proj{
+    position: relative;
+    background-image:url(https://img3.wallspic.com/crops/0/4/9/3/5/153940/153940-el_arte_abstracto-azul-morado-violeta-rosa-2559x1440.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+
+}
+
+.profilephoto-proj{
+position: relative;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.profilephoto-proj > .btn-06{
+    margin-top: 50px;
+    padding: 100px;
+    width: 900px;
+    display: flex;
+    gap: 50%;
+    background: #000;
+
+}
+
+.profilephoto-proj .btn-06 > button{
+    color:#ffee05;
+    background-color: #000;
+    border: 3px solid #ff05c9;
+    box-shadow: inset
+    0 -3em 3em rgba(204, 8, 230, 0.295),
+    0 0  0 1px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    font-weight: bold;
+    width: 30rem;
+    height: 3rem;
+    text-decoration: none;
+    
+}
+
+.profilephoto-proj .btn-06 > button:hover{
+    background-color: rgba(202, 124, 212, 0.466);
+    cursor: pointer;
+    
+}
+
+
+.profilephoto-proj .btn-06 > button .text-btn{
+    color: rgb(255, 255, 255);
+    
+}
+
+.profilephoto-proj .imgbx-proj{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 8px solid #c2ff05;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilephoto-proj .imgbx-proj img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container .footer-proj{
+    position: relative;
+    background: rgb(0, 0, 0);
+    border: solid 2px rgb(255, 217, 0);
+    width: auto;
+    height: 80px;
+    bottom: 0;
+}
+.footer-proj > p{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
